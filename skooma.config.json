@@ -1,0 +1,65 @@
+{
+  "name": "Default Full-Stack Template",
+  "description": "A comprehensive full-stack web application template with Go backend, React frontend, and Docker orchestration",
+  "author": "Mark Rodgers",
+  "variables": [
+    {
+      "name": "Name",
+      "prompt": "Project name",
+      "description": "Alphanumeric name for your project (no spaces or underscores)",
+      "type": "string",
+      "required": true,
+      "validation": {
+        "pattern": "^[a-zA-Z0-9][a-zA-Z0-9-]*[a-zA-Z0-9]$",
+        "message": "Project name must be alphanumeric with hyphens only, no spaces or underscores"
+      }
+    },
+    {
+      "name": "RepoURL",
+      "prompt": "Repository URL (e.g., github.com/username/repo)",
+      "description": "Git repository URL without protocol prefix",
+      "type": "string",
+      "required": true,
+      "validation": {
+        "pattern": "^[^\\s]+\\.[^\\s]+/[^\\s]+$",
+        "message": "Repository URL must be in format: domain.com/username/repo"
+      }
+    },
+    {
+      "name": "Author",
+      "prompt": "Author name (e.g., John Doe <john.doe@example.com>)",
+      "description": "Author information for generated files",
+      "type": "string",
+      "required": false,
+      "validation": {
+        "pattern": "^[^<>]+ <[^@\\s]+@[^@\\s]+\\.[^@\\s]+>$",
+        "message": "Author must be in format: Name <email@domain.com>"
+      }
+    },
+    {
+      "name": "Database",
+      "prompt": "Database type",
+      "description": "Choose the database solution for your application",
+      "type": "select",
+      "required": true,
+      "default": "file",
+      "options": [
+        {
+          "value": "file",
+          "label": "Flat File",
+          "description": "Simple file-based storage, good for prototyping"
+        },
+        {
+          "value": "postgres",
+          "label": "PostgreSQL",
+          "description": "Full-featured PostgreSQL database with Docker container"
+        },
+        {
+          "value": "mssql",
+          "label": "Microsoft SQL Server",
+          "description": "Microsoft SQL Server with Docker container"
+        }
+      ]
+    }
+  ]
+}
