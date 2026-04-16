@@ -7,7 +7,7 @@
 
 > _"The official default template for Skooma - brewing full-stack magic since day one."_
 
-This is the default project template used by [Skooma](https://github.com/mark-rodgers/skooma) to scaffold full-stack single-page applications. It provides a complete development stack with Go/Gin backend, React + TypeScript + Vite + Tailwind CSS frontend, and Docker Compose orchestration.
+This is the default project template used by [Skooma](https://github.com/skooma-cli/skooma) to scaffold full-stack single-page applications. It provides a complete development stack with Go/Gin backend, React + TypeScript + Vite + Tailwind CSS frontend, and Docker Compose orchestration.
 
 ## What's Included
 
@@ -77,7 +77,7 @@ When Skooma processes this template, the following variables are available:
 
 ## Usage
 
-This template is designed to be consumed by the [Skooma CLI tool](https://github.com/mark-rodgers/skooma). Users don't typically interact with this repository directly.
+This template is designed to be consumed by the [Skooma CLI tool](https://github.com/skooma-cli/skooma). Users don't typically interact with this repository directly.
 
 ### Via Skooma CLI:
 
@@ -240,7 +240,7 @@ When contributing to this template:
 
 ## Related Projects
 
-- **[Skooma](https://github.com/mark-rodgers/skooma)** - The CLI tool that processes this template
+- **[Skooma](https://github.com/skooma-cli/skooma)** - The CLI tool that processes this template
 - **[More Templates](https://github.com/mark-rodgers?tab=repositories&q=skooma-template)** - Additional official and community templates
 
 ## License
