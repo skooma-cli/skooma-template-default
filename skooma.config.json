@@ -16,24 +16,24 @@
     },
     {
       "name": "RepoURL",
-      "prompt": "Repository URL (e.g., github.com/username/repo)",
+      "prompt": "Repository URL (e.g., github.com/user/repo)",
       "description": "Git repository URL without protocol prefix",
       "type": "string",
       "required": true,
       "validation": {
         "pattern": "^[^\\s]+\\.[^\\s]+/[^\\s]+$",
-        "message": "Repository URL must be in format: domain.com/username/repo"
+        "message": "Repository URL must be in format: domain.com/user/repo"
       }
     },
     {
       "name": "Author",
-      "prompt": "Author name (e.g., John Doe <john.doe@example.com>)",
+      "prompt": "Author name (e.g., Name <email@example.com>)",
       "description": "Author information for generated files",
       "type": "string",
       "required": false,
       "validation": {
         "pattern": "^[^<>]+ <[^@\\s]+@[^@\\s]+\\.[^@\\s]+>$",
-        "message": "Author must be in format: Name <email@domain.com>"
+        "message": "Author must be in format: Name <email@example.com>"
       }
     },
     {

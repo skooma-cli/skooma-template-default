@@ -1,4 +1,4 @@
-# Skooma Default Template 🧪
+# Skooma Default Template
 
 ![Go Version](https://img.shields.io/badge/Go-1.26.1%2B-00ADD8?logo=go&logoColor=white)
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
@@ -17,7 +17,7 @@ This template generates a modern, production-ready full-stack application with:
 
 - **Go 1.26.1+** with [Gin](https://github.com/gin-gonic/gin) web framework
 - **Environment configuration** via [godotenv](https://github.com/joho/godotenv)
-- **Database support** for PostgreSQL, Microsoft SQL Server, or flat files
+- **Database support** for PostgreSQL, Microsoft SQL Server, or flat file
 - **Docker** containerization with hot-reload development setup
 - **RESTful API** structure ready for expansion
 
@@ -68,12 +68,12 @@ template/
 
 When Skooma processes this template, the following variables are available:
 
-| Variable        | Description                                        | Example                       |
-| --------------- | -------------------------------------------------- | ----------------------------- |
-| `{{.Name}}`     | Project name (alphanumeric, no spaces/underscores) | `myapp`                       |
-| `{{.RepoURL}}`  | Repository URL without protocol                    | `github.com/user/myapp`       |
-| `{{.Author}}`   | Author information in Name <email> format          | `John Doe <john@example.com>` |
-| `{{.Database}}` | Database type: `file`, `mssql`, or `postgres`      | `postgres`                    |
+| Variable        | Description                                        | Example                    |
+| --------------- | -------------------------------------------------- | -------------------------- |
+| `{{.Name}}`     | Project name (alphanumeric, no spaces/underscores) | `myapp`                    |
+| `{{.RepoURL}}`  | Repository URL without protocol                    | `github.com/user/myapp`    |
+| `{{.Author}}`   | Author information in Name <email> format          | `Name <email@example.com>` |
+| `{{.Database}}` | Database type: `file`, `mssql`, or `postgres`      | `postgres`                 |
 
 ## Usage
 
