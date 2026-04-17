@@ -241,7 +241,7 @@ When contributing to this template:
 ## Related Projects
 
 - **[Skooma](https://github.com/skooma-cli/skooma)** - The CLI tool that processes this template
-- **[More Templates](https://github.com/mark-rodgers?tab=repositories&q=skooma-template)** - Additional official and community templates
+- **[More Templates](https://github.com/orgs/skooma-cli/repositories?q=skooma-template)** - Additional official and community templates
 
 ## License
 
